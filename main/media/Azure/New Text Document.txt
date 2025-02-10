@@ -1,0 +1,1 @@
+we made VMeventlog  connect it to log analytics workspace then send it to our sentinel. 

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Tamem Al-Azzam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+    <div id="mouse-blob"></div>
+
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="media/matrix.webm" type="video/webm">
+            <source src="media/matrix.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <div class="nav-overlay"></div>
+    <nav class="main-nav">
+        <a href="index.html" class="logo">&lt;/<span class="typed-text"></span>&gt;</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#experience">Experience</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="projects-section">
+        <h1 class="section-title">PROJECTS</h1>
+        <p class="section-subtitle">Exploring creativity through code and design</p>
+
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">masterpice</button>
+
+        </div>
+
+        <div class="projects-grid">
+            <!-- USB -->
+            <div class="project-card" data-category="web" style="--card-index: 1">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-skull project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/0xEtxtro/USB-BadWare" target="_blank" rel="noopener noreferrer"
+                                data-tooltip="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title"> USB-BadWare </h3>
+                    <p class="project-description">"USB-BadWare" is a custom-built attack tool similar to a USB Rubber
+                        Ducky, developed from scratch using Python. It features an autorun mechanism that executes
+                        malicious Python code automatically when plugged into a target machine.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Networking</span>
+                        <a href="projects-details.html#USB-BadWare" target="_blank" rel="noopener noreferrer" data-tooltip="View Code" style="text-decoration: none;"><span style="color: #ffffff;">ForMoreDetails <i class="fas fa-external-link-alt"></i></span></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- subdomian App -->
+            <div class="project-card" data-category="app" style="--card-index: 2">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-terminal project-icon"></i> <!-- Changed icon -->
+                        <div class="project-links">
+                            <p>private</p>
+
+                        </div>
+                    </div>
+                    <h3 class="project-title">Subdomain Automation Script</h3>
+                    <p class="project-description">Developed a script to automate subdomain enumeration for web
+                        penetration tests, enhancing both efficiency and accuracy.</p>
+                    <strong> This project is private.</strong>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Bash</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Azure Project -->
+            <div class="project-card" data-category="ai" style="--card-index: 3">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-shield-alt project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://portal.azure.com/" target="_blank" rel="noopener noreferrer"
+                                data-tooltip="View Code">
+                                <i class="fab fa-microsoft"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Private SIEM on Azure</h3>
+                    <p class="project-description">Built a custom SIEM solution on Microsoft Azure, detect any RDP
+                        connecion real-time. The solution integrates with Azure Sentinel for enhanced security
+                        monitoring and incident management.</p>
+                    <div class="project-tech">
+                        <span>Microsoft Azure</span>
+                        <span>Sentinel</span>
+                        <a href="projects-details.html#azure" target="_blank" rel="noopener noreferrer" data-tooltip="View Code" style="text-decoration: none;"><span style="color: white;">ForMoreDetails <i class="fas fa-external-link-alt"></i></span></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project-card" data-category="design" style="--card-index: 4">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-brands fa-raspberry-pi project-icon" style="color: #932250;"></i>
+                        <strong>soon..</strong>
+                    </div>
+                    <h3 class="project-title">PenRazz</h3>
+                    <p class="project-description">PenRazz is penetration testing device using a Raspberry Pi to
+                        automate external attacks as if they were conducted from inside the target network.</p>
+                    <strong>"This project is still cooking!" 🔥</strong>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>RaspbianOS</span>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/0xEtxtro" target="_blank" rel="noopener noreferrer">
+                    <span><i class="fab fa-github"></i></span>
+                </a>
+                <a href="https://x.com/TamemAlazzam_" target="_blank" rel="noopener noreferrer">
+                    <span><i class="fab fa-twitter"></i></span>
+                </a>
+                <a href="https://www.linkedin.com/in/tamemalazzam" target="_blank" rel="noopener noreferrer">
+                    <span><i class="fab fa-linkedin-in"></i></span>
+                </a>
+                <a href="https://www.instagram.com/tamem.alazzam" target="_blank" rel="noopener noreferrer">
+                    <span><i class="fab fa-instagram"></i></span>
+                </a>
+                <a href="mailto:abosanad.alazzam@gmail.com">
+                    <span><i class="fas fa-envelope"></i></span>
+                </a>
+            </div>
+            <p class="animate-on-scroll">&copy; 2025. Made with ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
